@@ -11,44 +11,48 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-        <Header />
-        <Container sx={{marginY: 5}}>
-            {allData.map((data, id) =>(
-                <>
-                <Typography
-                variant='h4'
-                component="h2"
-                marginTop={5}
-                marginBottom={3}
-                key={id}
-                className="title"
-                sx={{
-                    fontFamily: "Poppins",
-                    fontWeight: "bolder"
-                }}
-                >
-                    {data.title}
-                </Typography>
-                <Typography sx={{
-                    marginTop: "-20px",
-                    color: "#696969"
-                }}>
-                    {data.discription}
-                </Typography>
-                <Grid container spacing={5} className="allCards">
-                    {data.onCards.map((card, id) =>(
-                        <BlogCards card={card} key={id}/>
-                    // console.log(card.image)
+        <Container sx={{
+                background: "#ccc"
+            }}>
+            <Header />
+                <Container sx={{marginY: 5}}>
+                    {allData.map((data, id) =>(
+                        <>
+                        <Typography
+                        variant='h4'
+                        component="h2"
+                        marginTop={5}
+                        marginBottom={3}
+                        key={id}
+                        className="title"
+                        sx={{
+                            fontFamily: "Poppins",
+                            fontWeight: "bolder"
+                        }}
+                        >
+                            {data.title}
+                        </Typography>
+                        <Typography sx={{
+                            marginTop: "-20px",
+                            color: "#696969"
+                        }}>
+                            {data.discription}
+                        </Typography>
+                        <Grid container spacing={5} className="allCards">
+                            {data.onCards.map((card, id) =>(
+                                <BlogCards card={card} key={id}/>
+                            // console.log(card.image)
+                            ))}
+                        {/* <BlogCards />
+                        <BlogCards />
+                        <BlogCards />
+                        <BlogCards /> */}
+                        </Grid>
+                </>
                     ))}
-                {/* <BlogCards />
-                <BlogCards />
-                <BlogCards />
-                <BlogCards /> */}
-                </Grid>
-        </>
-            ))}
+                </Container>
+                <Footer />
         </Container>
-        <Footer />
     </div>
   );
 }

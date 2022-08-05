@@ -55,63 +55,63 @@ export default function Header() {
                 <p>Contact</p>
             </div>
         </header>
-        <Container sx={{
-            marginY: 10,
-            marginBottom: "-20px",
-            }}>
-            <ThemeProvider theme={theme}>
-                <Typography variant="body1" sx={{
-                    fontWeight: "bolder",
-                    padding: "0 20px",
-                    color: "#052d64"
+            <Container sx={{
+                marginY: 7,
+                marginBottom: "-20px",
                 }}>
-                    Fyll-<span className='blogSpan'>Gh</span> Blog
-                </Typography>
-            </ThemeProvider>
-        </Container>
-        <Container sx={{marginY: 5}}>
-            <ThemeProvider theme={theme}>
-                <Paper>
-                    <Box sx={{
-                        display: "flex",
-                        padding: "0 5px 5px"
+                <ThemeProvider theme={theme}>
+                    <Typography variant="body1" sx={{
+                        fontWeight: "bolder",
+                        padding: "10px 20px",
+                        color: "#052d64"
                     }}>
-                        <img src={image} alt='' className='banner'/>
+                        Fyll-<span className='blogSpan'>Gh</span> Blog
+                    </Typography>
+                </ThemeProvider>
+            </Container>
+            <Container sx={{marginY: 5}}>
+                <ThemeProvider theme={theme}>
+                    <Paper>
                         <Box sx={{
-                            marginLeft: "30px",
-                            marginTop: "50px",
-                            paddingRight: "40px"
-                        }}
-                        >
-                            <Typography variant="body1" sx={{
-                                fontWeight: "bolder",
-                                color: "#052d64",
-                                marginBottom: "-20px"
-                            }}>
-                                Arts
-                            </Typography>
-                            <Typography variant="body1" sx={{
-                                fontWeight: "bolder",
-                                color: "#052d64",
-                                marginBottom: "-20px"
-                            }}>
-                                &
-                            </Typography>
-                            <Typography variant="body1" sx={{
-                                fontWeight: "bolder",
-                                color: "#052d64"
-                            }}>
-                                Entertainment
-                            </Typography>
-                            <Typography variant="body2">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                            </Typography>
+                            display: "flex",
+                            padding: "0 5px 5px"
+                        }}>
+                            <img src={image} alt='' className='banner'/>
+                            <Box sx={{
+                                marginLeft: "30px",
+                                marginTop: "50px",
+                                paddingRight: "40px"
+                            }}
+                            >
+                                <Typography variant="body1" sx={{
+                                    fontWeight: "bolder",
+                                    color: "#052d64",
+                                    marginBottom: "-20px"
+                                }}>
+                                    Arts
+                                </Typography>
+                                <Typography variant="body1" sx={{
+                                    fontWeight: "bolder",
+                                    color: "#052d64",
+                                    marginBottom: "-20px"
+                                }}>
+                                    &
+                                </Typography>
+                                <Typography variant="body1" sx={{
+                                    fontWeight: "bolder",
+                                    color: "#052d64"
+                                }}>
+                                    Entertainment
+                                </Typography>
+                                <Typography variant="body2">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                </Typography>
+                            </Box>
                         </Box>
-                    </Box>
-                </Paper>
-            </ThemeProvider>
-        </Container>
+                    </Paper>
+                </ThemeProvider>
+            </Container>
     </div>
   )
 }

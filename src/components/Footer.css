@@ -1,0 +1,123 @@
+footer{
+    width: 108.7%;
+    height: 350px;
+    margin-left: -48px;
+    background: #292929;
+    color: #fff;
+}
+.ft-wrapper{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 50px;
+}
+/* Brand & Socials*/
+.ft-brand{
+    padding-right: 40px;
+    color: var(--secondary-color);
+    font-family: 'Roboto';
+}
+.ft-brand h2{
+    margin-bottom: 5px;
+}
+.nav-socials a{
+    color: #b59b0a;
+}
+.nav-socials{
+    padding: 5px;
+    margin-top: 100px;
+}
+.nav-socials i{
+    font-size: 1.5em;
+    padding: 5px;
+    color: var(--primary-color);
+}
+.nav-socials i:hover{
+    transform: rotate(360deg);
+    transition: .9s ease;
+}
+.nav-socials .face:hover{
+    color: #2f90ff;
+}
+.nav-socials .you:hover{
+    color: #f94646;
+}
+.nav-socials .insta:hover{
+    color: #ec16ec;
+}
+.nav-socials .twit:hover{
+    color: #2f90ff;
+}
+/* The Vertical Line */
+.line{
+    width: 1px;
+    height: 250px;
+    margin-right: 40px;
+    border: 3px solid var(--secondary-color);
+}
+/* Info & Email */
+.ft-info{
+    margin-top: 60px;
+    color: var(--secondary-color);
+}
+.ft-info p{
+    line-height: 1.5;
+    font-family: 'Roboto';
+}
+#email{
+    width: 350px;
+    height: 40px;
+    padding: 11px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: .8em;
+    border: none;
+    margin-top: 30px;
+}
+::placeholder{
+    font-size: 1.4em;
+}
+#submit{
+    width: 100px;
+    padding: 11px 2px;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+    border: none;
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--secondary-color);
+    background-color: #b59b0a;
+    transition: .3 ease-out;
+}
+#submit:hover{
+    background-color: #d8b90c;
+    cursor: pointer;
+}
+/* Nav Page Links*/
+.bottom-nav-pages{
+    margin-top:115px;
+    padding: 20px;
+}
+.bottom-nav-pages ul{
+    display: flex;
+}
+.bottom-nav-pages ul li{
+    padding: 20px;
+    list-style: none;
+}
+.bottom-nav-pages ul li a{
+    font-size: 1.3em;
+    color: var(--secondary-color);
+}.bottom-nav-pages ul li a:hover{
+    color: #b59b0a;
+}
+
+.ft-bottom{
+    width: 108.7%;
+    margin-left: -48px;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    padding: 5px;
+    font-family: 'Roboto';
+}

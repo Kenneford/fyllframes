@@ -1,11 +1,12 @@
 header{
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px;
+    padding: 10px 50px;
     color: #fff;
     background: #052d64;
     border-bottom: 2px solid #fff;
@@ -15,7 +16,7 @@ span{
     color: #fdd909;
 }
 .blogSpan{
-    color: #fff;
+    color: #b59b0a;
 }
 .links{
     display: flex;
