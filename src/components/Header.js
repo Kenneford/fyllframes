@@ -49,10 +49,10 @@ export default function Header() {
         <header>
             <h1 className='logo'>Fyll-<span>Gh</span></h1>
             <div className='links'>
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="/about">About</NavLink>
-                <NavLink to="/services">Services</NavLink>
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="#">Home</NavLink>
+                <NavLink to="#">About</NavLink>
+                <NavLink to="#">Services</NavLink>
+                <NavLink to="#">Contact</NavLink>
             </div>
         </header>
             <Container sx={{
