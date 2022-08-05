@@ -56,7 +56,7 @@ export default function Header() {
             </div>
         </header>
         <Container sx={{
-            marginY: 2,
+            marginY: 10,
             marginBottom: "-20px",
             }}>
             <ThemeProvider theme={theme}>
