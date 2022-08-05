@@ -17,13 +17,13 @@ export default function Footer() {
                 <div>
                     <div className="ft-wrapper">
                         <div className="ft-brand">
-                            <h2>Fyll-<span class="ft-btm">Gh</span></h2>
+                            <h2>Fyll-<span className="ft-btm">Gh</span></h2>
                             <p><i>Best among equals...</i></p>
                             <div className="nav-socials">
-                                <a href="" className=""><i class="fa-brands fa-facebook face" title="Facebook Link"></i></a>
-                                <a href="" className=""><i class="fa-brands fa-youtube you" title="Youtube Link"></i></a>
-                                <a href="" className=""><i class="fa-brands fa-instagram insta" title="Instagram Link"></i></a>
-                                <a href="" className=""><i class="fa-brands fa-twitter twit" title="Twitter Link"></i></a>
+                                <a href="" className=""><i className="fa-brands fa-facebook face" title="Facebook Link"></i></a>
+                                <a href="" className=""><i className="fa-brands fa-youtube you" title="Youtube Link"></i></a>
+                                <a href="" className=""><i className="fa-brands fa-instagram insta" title="Instagram Link"></i></a>
+                                <a href="" className=""><i className="fa-brands fa-twitter twit" title="Twitter Link"></i></a>
                             </div>
                         </div>
                         <div className="line"></div>
