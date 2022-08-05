@@ -23,7 +23,8 @@ const theme = createTheme({
                         variant: "body2",
                     },
                     style: {
-                        fontSize: 11,
+                        fontSize: 12,
+                        color: "#696969"
                     }
                 },
                 {
@@ -53,19 +54,26 @@ export default function BlogCards({card}) {
                 alt=''
                 className='img'
                 />
-                <Box>
-                    <Typography variant='body2'>
-                        {card.hashTag}
-                    </Typography>
-                    <Typography variant='subtitle1' component="h2">
-                        {card.cardTitle}
-                    </Typography>
-                </Box>
-                <Box>
-                    <Typography variant='body2'>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                    </Typography>
+                <Box sx={{
+                    padding: "5px"
+                }}>
+                    <Box>
+                        <Typography variant='body2'>
+                            {card.hashTag}
+                        </Typography>
+                        <Typography variant='subtitle1' component="h2" sx={{
+                            fontWeight: "bold",
+
+                        }}>
+                            {card.cardTitle}
+                        </Typography>
+                    </Box>
+                    <Box>
+                        <Typography variant='body2'>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        </Typography>
+                    </Box>
                 </Box>
             </Paper>
         </ThemeProvider>

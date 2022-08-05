@@ -21,8 +21,18 @@ function App() {
                 marginBottom={3}
                 key={id}
                 className="title"
+                sx={{
+                    fontFamily: "Poppins",
+                    fontWeight: "bolder"
+                }}
                 >
                     {data.title}
+                </Typography>
+                <Typography sx={{
+                    marginTop: "-20px",
+                    color: "#696969"
+                }}>
+                    {data.discription}
                 </Typography>
                 <Grid container spacing={5} className="allCards">
                     {data.onCards.map((card, id) =>(

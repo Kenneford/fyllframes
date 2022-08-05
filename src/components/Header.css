@@ -5,6 +5,7 @@ header{
     padding: 10px 30px;
     color: #fff;
     background: #052d64;
+    border-bottom: 2px solid #fff;
     font-family: 'Roboto';
 }
 span{
@@ -16,4 +17,16 @@ span{
 .links p{
     margin: 10px;
     cursor: pointer;
+    transition: .3s ease-out;
+}
+.links p:hover{
+    color: #fdd909;
+    /* text-decoration: underline; */
+}
+.banner{
+    width: 700px;
+    height: 400px;
+}
+.artText{
+    font-size: 3em;
 }
