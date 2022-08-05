@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    color: #fff;
+    background: #052d64;
+    font-family: 'Roboto';
+}
+span{
+    color: #fdd909;
+}
+.links{
+    display: flex;
+}
+.links p{
+    margin: 10px;
+    cursor: pointer;
+}
