@@ -4,6 +4,7 @@ import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import { createTheme, ThemeProvider } from '@mui/material';
+import {Link} from 'react-router-dom';
 import './Footer.css'
 
 export default function Footer() {
@@ -31,12 +32,10 @@ export default function Footer() {
                         <button id='submit'>Send</button>
                     </div>
                     <div className="bottom-nav-pages">
-                        <ul>
-                            <li><a href="index.html" className=""><i className="fa-solid fa-house-chimney" title="Go Home"></i></a></li>
-                            <li><a href="about.html" className=""><i className="fa-solid fa-briefcase" title="About Page"></i></a></li>
-                            <li><a href="contact.html" className=""><i className="fa-solid fa-id-card-clip" title="Contact Us"></i></a></li>
-                            <li><a href="blog.html" className=""><i className="fa-solid fa-blog" title="Blog Page"></i></a></li>
-                        </ul>
+                        <Link to="/"><i className="fa-solid fa-house-chimney" title="Go Home"></i></Link>
+                        <Link to="/about"><i className="fa-solid fa-briefcase" title="About Page"></i></Link>
+                        <Link to="/contact"><i className="fa-solid fa-id-card-clip" title="Contact Us"></i></Link>
+                        <Link to="/services"><i className="fa-solid fa-blog" title="Blog Page"></i></Link>
                     </div>
                 </div>
             </footer>

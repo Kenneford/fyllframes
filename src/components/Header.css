@@ -21,12 +21,14 @@ span{
 .links{
     display: flex;
 }
-.links p{
+.links a{
+    text-decoration: none;
     margin: 10px;
+    color: #fff;
     cursor: pointer;
     transition: .3s ease-out;
 }
-.links p:hover{
+.links a:hover{
     color: #fdd909;
     /* text-decoration: underline; */
 }

@@ -71,7 +71,7 @@
                 "id": 1,
                "hashTag": "FyllConcepts",
                "image": "https://unsplash.com/photos/1_CMoFsPfso",
-               "cardTitle": "Programe Design",
+               "cardTitle": "Web Design",
                "productDescription": ""
             },
             {
@@ -79,6 +79,48 @@
                "hashTag": "#FyllConcepts",
                "image": "https://unsplash.com/photos/jwM9rPN1jXY",
                "cardTitle": "Logo/3D Logo",
+               "productDescription": ""
+            },
+            {
+                "id": 3,
+               "hashTag": "#FyllConcepts",
+               "image": "https://unsplash.com/photos/jwM9rPN1jXY",
+               "cardTitle": "Advertising & Marketing Design",
+               "productDescription": ""
+            },
+            {
+                "id": 4,
+               "hashTag": "#FyllConcepts",
+               "image": "https://unsplash.com/photos/jwM9rPN1jXY",
+               "cardTitle": "Motion Graphics & Animation",
+               "productDescription": ""
+            },
+            {
+                "id": 5,
+               "hashTag": "#FyllConcepts",
+               "image": "https://unsplash.com/photos/jwM9rPN1jXY",
+               "cardTitle": "Packaging Design",
+               "productDescription": ""
+            },
+            {
+                "id": 6,
+               "hashTag": "#FyllConcepts",
+               "image": "https://unsplash.com/photos/jwM9rPN1jXY",
+               "cardTitle": "Illustration",
+               "productDescription": ""
+            },
+            {
+                "id": 7,
+               "hashTag": "#FyllConcepts",
+               "image": "https://unsplash.com/photos/jwM9rPN1jXY",
+               "cardTitle": "Logo/3D Logo",
+               "productDescription": ""
+            },
+            {
+                "id": 8,
+               "hashTag": "#FyllConcepts",
+               "image": "https://unsplash.com/photos/jwM9rPN1jXY",
+               "cardTitle": "Publication & Typographic Design",
                "productDescription": ""
             }
         ]

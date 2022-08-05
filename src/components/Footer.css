@@ -31,6 +31,7 @@ footer{
     font-size: 1.5em;
     padding: 5px;
     color: var(--primary-color);
+    transition: .3s ease-out;
 }
 .nav-socials i:hover{
     transform: rotate(360deg);
@@ -50,9 +51,10 @@ footer{
 }
 /* The Vertical Line */
 .line{
-    width: 1px;
+    width: 5px;
     height: 250px;
     margin-right: 40px;
+    background: #fff;
     border: 3px solid var(--secondary-color);
 }
 /* Info & Email */
@@ -95,20 +97,17 @@ footer{
 }
 /* Nav Page Links*/
 .bottom-nav-pages{
-    margin-top:115px;
+    margin-top:135px;
     padding: 20px;
 }
-.bottom-nav-pages ul{
-    display: flex;
-}
-.bottom-nav-pages ul li{
+.bottom-nav-pages a{
     padding: 20px;
     list-style: none;
-}
-.bottom-nav-pages ul li a{
     font-size: 1.3em;
     color: var(--secondary-color);
-}.bottom-nav-pages ul li a:hover{
+    transition: .3s ease-out;
+}
+.bottom-nav-pages a:hover{
     color: #b59b0a;
 }
 

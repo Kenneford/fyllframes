@@ -47,7 +47,7 @@ export default function BlogCards({card}) {
     <img/>
         <ThemeProvider theme={theme}>
             <Paper elevation={7} sx={{
-                height: "300px",
+                height: "320px",
             }}>
                 <img
                 src={image}
