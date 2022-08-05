@@ -6,6 +6,7 @@ import Grid from '@mui/material/Grid';
 import allData from './fyllData.json'
 import Typography from '@mui/material/Typography';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
         </>
             ))}
         </Container>
+        <Footer />
     </div>
   );
 }

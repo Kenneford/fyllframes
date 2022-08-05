@@ -11,6 +11,9 @@ header{
 span{
     color: #fdd909;
 }
+.blogSpan{
+    color: #fff;
+}
 .links{
     display: flex;
 }

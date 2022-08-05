@@ -55,16 +55,23 @@ export default function Header() {
                 <p>Contact</p>
             </div>
         </header>
+        <Container sx={{
+            marginY: 2,
+            marginBottom: "-20px",
+            }}>
+            <ThemeProvider theme={theme}>
+                <Typography variant="body1" sx={{
+                    fontWeight: "bolder",
+                    padding: "0 20px",
+                    color: "#052d64"
+                }}>
+                    Fyll-<span className='blogSpan'>Gh</span> Blog
+                </Typography>
+            </ThemeProvider>
+        </Container>
         <Container sx={{marginY: 5}}>
             <ThemeProvider theme={theme}>
                 <Paper>
-                    <Typography sx={{
-                        fontWeight: "bolder",
-                        padding: "0 20px",
-                        color: "#052d64"
-                    }}>
-                        Fyll-<span>Gh</span> Blog
-                    </Typography>
                     <Box sx={{
                         display: "flex",
                         padding: "0 5px 5px"
