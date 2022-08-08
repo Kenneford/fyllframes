@@ -43,8 +43,7 @@ const theme = createTheme({
 export default function BlogCards({card}) {
     // console.log(card)
   return (
-    <Grid item xs={3}>
-    <img/>
+    <Grid item xs={3} className="blogGrid">
         <ThemeProvider theme={theme}>
             <Paper elevation={7} sx={{
                 height: "320px",

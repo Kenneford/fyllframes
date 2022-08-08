@@ -30,7 +30,7 @@ function App() {
                             fontWeight: "bolder"
                         }}
                         >
-                            {data.title}
+                            <p key={id}>{data.title}</p>
                         </Typography>
                         <Typography sx={{
                             marginTop: "-20px",
@@ -38,7 +38,7 @@ function App() {
                         }}>
                             {data.discription}
                         </Typography>
-                        <Grid container spacing={5} className="allCards">
+                        <Grid container spacing={2} className="allCards">
                             {data.onCards.map((card, id) =>(
                                 <BlogCards card={card} key={id}/>
                             // console.log(card.image)
