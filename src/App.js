@@ -23,6 +23,7 @@ function App() {
                         component="h2"
                         marginTop={5}
                         marginBottom={3}
+                        key={id}
                         className="title"
                         sx={{
                             fontFamily: "Poppins",
@@ -37,7 +38,7 @@ function App() {
                         }}>
                             {data.discription}
                         </Typography>
-                        <Grid container spacing={5} className="allCards">
+                        <Grid container spacing={2} className="allCards">
                             {data.onCards.map((card, id) =>(
                                 <BlogCards card={card} key={id}/>
                             // console.log(card.image)
