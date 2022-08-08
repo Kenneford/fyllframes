@@ -38,7 +38,7 @@ function App() {
                         }}>
                             {data.discription}
                         </Typography>
-                        <Grid container spacing={2} className="allCards">
+                        <Grid container spacing={5} className="allCards">
                             {data.onCards.map((card, id) =>(
                                 <BlogCards card={card} key={id}/>
                             // console.log(card.image)

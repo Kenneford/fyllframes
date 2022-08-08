@@ -39,7 +39,7 @@ export default function Footer() {
                             <Link to="/services"><i className="fa-solid fa-blog" title="Blog Page"></i></Link>
                         </div>
                 <div className='kennWrap'>
-                    <p className='kennText'>Design with ❤️ by <span className='kenn'>Kenn</span></p>
+                    <p className='kennText'>Designed with ❤️ by <span className='kenn'>Kenn</span></p>
                 </div>
                     </div>
                 </div>
