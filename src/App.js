@@ -15,7 +15,7 @@ function App() {
                 background: "#ccc"
             }}>
             <Header />
-                <Container sx={{marginY: 5}}>
+                <Container sx={{marginY: 5, background:"#fff" }}>
                     {allData.map((data, id) =>(
                         <>
                         <Typography

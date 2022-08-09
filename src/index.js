@@ -13,20 +13,10 @@ root.render(
         <HashRouter>
             <Routes>
                 <Route path='/' element={<App />} />
-                <Route path='about' element={<About />} />
-                <Route path='services' element={<Services />} />
-                <Route path='contact' element={<Contact />} />
+                <Route path='/about' element={<About />} />
+                <Route path='/services' element={<Services />} />
+                <Route path='/contact' element={<Contact />} />
             </Routes>
         </HashRouter>
     </React.StrictMode>
 );
-
-
-{/* <BrowserRouter>
-    <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/about" element={<About />} />
-        <Route path='/services' element={<Services />} />
-        <Route path='/contact' element={<Contact />} />
-    </Routes>
-</BrowserRouter> */}

@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import image from '../images/wall-img.jpg'
 import { createTheme, ThemeProvider } from '@mui/material';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
 
 const theme = createTheme({
     components: {
@@ -50,9 +50,9 @@ export default function Header() {
             <h1 className='logo'>Fyll-<span>Gh</span></h1>
             <div className='links'>
                 <NavLink to="/">Home</NavLink>
-                <NavLink to="about">About</NavLink>
-                <NavLink to="services">Services</NavLink>
-                <NavLink to="contact">Contact</NavLink>
+                <NavLink to="/about">About</NavLink>
+                <NavLink to="/services">Services</NavLink>
+                <NavLink to="/contact">Contact</NavLink>
             </div>
         </header>
             <Container sx={{
