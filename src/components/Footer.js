@@ -31,6 +31,15 @@ export default function Footer() {
                             <p>For a better graphic works, printing and video editing, <br/> stay connected with us to have the best experience.</p>
                             <input type="email" name="email" id="email" placeholder="Enter email here..." />
                             <button id='submit'>Send</button>
+                            <div className='terms'>
+                                <p>
+                                    <Link to="#">Terms of Service</Link>
+                                </p> 
+                                <p>{"|"}</p>
+                                <p>
+                                    <Link to="#">Privacy Policy</Link>
+                                </p>
+                            </div>
                         </div>
                         <div className="bottom-nav-pages">
                             <Link to="/"><i className="fa-solid fa-house-chimney" title="Go Home"></i></Link>

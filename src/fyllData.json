@@ -69,7 +69,7 @@
         "onCards": [
             {
                 "id": 1,
-               "hashTag": "FyllConcepts",
+               "hashTag": "#FyllConcepts",
                "image": "https://unsplash.com/photos/1_CMoFsPfso",
                "cardTitle": "Web Design",
                "productDescription": ""
@@ -113,7 +113,7 @@
                 "id": 7,
                "hashTag": "#FyllConcepts",
                "image": "https://unsplash.com/photos/jwM9rPN1jXY",
-               "cardTitle": "Logo/3D Logo",
+               "cardTitle": "UI and Interactive Design.",
                "productDescription": ""
             },
             {

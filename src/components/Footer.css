@@ -95,6 +95,21 @@ footer{
     background-color: #d8b90c;
     cursor: pointer;
 }
+
+.terms{
+    display: flex;
+    margin-top: 20px;
+}
+.terms p{
+    margin: 10px;
+}
+.terms a{
+    text-decoration: none;
+    color: #fff;
+}
+.terms a:hover{
+    text-decoration: underline;
+}
 /* Nav Page Links*/
 .bottom-nav-pages{
     margin-top:135px;
